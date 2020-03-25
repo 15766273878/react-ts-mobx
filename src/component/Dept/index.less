@@ -1,0 +1,77 @@
+.modalCon {
+  :global {
+    .ant-modal-body {
+      padding: 0;
+    }
+  }
+}
+
+.deptLayout {
+  min-height: 400px !important;
+  max-height: 450px !important;
+}
+
+.sider {
+  flex: 50% !important;
+  max-width: 50% !important;
+  min-width: 50% !important;
+  width: 50% !important;
+}
+
+.left {
+  overflow-y: auto;
+  border-right: 1px solid #d9d9d9;
+  height: 100%;
+  width: 100%;
+
+  :global {
+    .site-tree-search-value {
+      color: #1ebcb2;
+    }
+
+    .title-content {
+      padding: 10px 15px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #d9d9d9;
+      display: flex;
+      align-items: center;
+
+      :global {
+        .plus-btn {
+          font-size: 18px;
+          margin-left: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.right {
+  background: white;
+  :global {
+    .title {
+      padding: 7px 10px;
+      box-sizing: border-box;
+    }
+    .tagContain {
+      display: flex;
+      flex-direction: column;
+      .ant-tag {
+        display: flex;
+        align-items: center;
+        height: 30px;
+        border: none;
+        background-color: white;
+        padding: 0 0 0 10px;
+        .anticon {
+          font-size: 18px;
+          margin-right: 5px;
+        }
+        .name {
+          flex: 1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+@import '~antd/es/style/themes/default.less';
+
+.container {
+  background: white;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+
+  :global {
+    .auth-group {
+      .auth-group-title {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.authTag {
+  color: inherit;
+  font-size: 14px;
+  margin-bottom: 5px;
+
+  :global {
+    i {
+      color: #1ebcb2;
+    }
+
+    .auth-group-name {
+      margin-left: 5px;
+    }
+  }
+}
+
+.green {
+  color: #1ebcb2;
+}
+
+.setAuth {
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.checkboxItem {
+  display: flex;
+  height: 40px;
+  align-items: center;
+
+  & ~ .checkboxItem {
+    border-top: 1px solid #d9d9d9;
+  }
+
+  :global {
+    .wrap-content {
+      flex: 1;
+      display: flex;
+      align-items: center;
+
+      i {
+        color: #1ebcb2;
+        margin-right: 5px;
+        font-size: 18px;
+      }
+
+      span {
+        font-size: 14px;
+      }
+    }
+
+    .check-content {
+      width: 50px;
+      text-align: center;
+    }
+  }
+}

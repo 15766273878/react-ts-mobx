@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/view/cloud-oa/build/static/css/main.2d52ed34.chunk.css",
+    "main.js": "/view/cloud-oa/build/static/js/main.cea0ed74.chunk.js",
+    "main.js.map": "/view/cloud-oa/build/static/js/main.cea0ed74.chunk.js.map",
+    "runtime-main.js": "/view/cloud-oa/build/static/js/runtime-main.6f58d14e.js",
+    "runtime-main.js.map": "/view/cloud-oa/build/static/js/runtime-main.6f58d14e.js.map",
+    "static/css/2.2fbe55bd.chunk.css": "/view/cloud-oa/build/static/css/2.2fbe55bd.chunk.css",
+    "static/js/2.77b24e98.chunk.js": "/view/cloud-oa/build/static/js/2.77b24e98.chunk.js",
+    "static/js/2.77b24e98.chunk.js.map": "/view/cloud-oa/build/static/js/2.77b24e98.chunk.js.map",
+    "index.html": "/view/cloud-oa/build/index.html",
+    "precache-manifest.97be291f89e36d87389cfcf06f49021b.js": "/view/cloud-oa/build/precache-manifest.97be291f89e36d87389cfcf06f49021b.js",
+    "service-worker.js": "/view/cloud-oa/build/service-worker.js",
+    "static/css/2.2fbe55bd.chunk.css.map": "/view/cloud-oa/build/static/css/2.2fbe55bd.chunk.css.map",
+    "static/css/main.2d52ed34.chunk.css.map": "/view/cloud-oa/build/static/css/main.2d52ed34.chunk.css.map",
+    "static/js/2.77b24e98.chunk.js.LICENSE.txt": "/view/cloud-oa/build/static/js/2.77b24e98.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f58d14e.js",
+    "static/css/2.2fbe55bd.chunk.css",
+    "static/js/2.77b24e98.chunk.js",
+    "static/css/main.2d52ed34.chunk.css",
+    "static/js/main.cea0ed74.chunk.js"
+  ]
+}
