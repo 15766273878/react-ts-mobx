@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route, Redirect, Link } from 'react-router-dom'
+import { Switch, Route, Redirect, Link } from 'react-router-dom'
 
 import { Menu } from 'antd'
 import AppList from '@/page/appList'
@@ -38,7 +38,7 @@ class SecurityLayout extends React.Component {
   public render() {
     const { current, menus } = this.state
     return (
-      <BrowserRouter>
+      <div>
         <div className="tab">
           <Menu selectedKeys={[current]} mode="horizontal">
             {menus.map((item) => (
@@ -62,7 +62,7 @@ class SecurityLayout extends React.Component {
           <Route path="/main/appDetail" component={appDetail} />
           <Route path="/main/setting" component={Setting} />
         </Switch>
-      </BrowserRouter>
+      </div>
     )
   }
 }
