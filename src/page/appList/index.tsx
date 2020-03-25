@@ -5,8 +5,9 @@ import { PlusOutlined, SettingFilled, DragOutlined } from '@ant-design/icons'
 import styles from './index.module.less'
 import { inject, observer } from 'mobx-react'
 import CreateForm from './component/CreateForm'
+import { Test } from '@/store'
 interface Props {
-  Test: any
+  Test: Test
 }
 
 function App(props: Props) {
@@ -94,6 +95,7 @@ function App(props: Props) {
                   />
                   <DragOutlined
                     onClick={() => {
+                      console.log(props)
                       props.Test.setUserInfo()
                     }}
                     className="drag"

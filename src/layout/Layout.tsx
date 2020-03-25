@@ -1,9 +1,13 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route, Redirect, Link } from 'react-router-dom'
 import { Provider } from 'mobx-react'
-import stores from '@/store'
+import { Test } from '@/store'
 import SecurityLayout from '@/layout/SecurityLayout'
 import Other from '@/page/other'
+
+const stores = {
+  Test: new Test()
+}
 
 class Layout extends React.Component {
   public readonly state = {}
