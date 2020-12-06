@@ -19,7 +19,7 @@ class App extends React.Component<IBase, {}> {
         <h5>{JSON.stringify(this.props.Test.userInfo)}</h5>
         <Button
           onClick={() => {
-            this.props.Test.resest()
+            this.props.Test.resestTime()
           }}
           type="primary"
         >
